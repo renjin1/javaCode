@@ -1,0 +1,12 @@
+2021-09-03 09:48:14 上午 [Thread: main-SendThread(192.168.74.128:2181)][ Class:org.apache.zookeeper.ClientCnxn >> Method: org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1229) ]
+WARN:Client session timed out, have not heard from server in 18009ms for session id 0x0
+2021-09-03 09:48:14 上午 [Thread: main-SendThread(192.168.74.128:2181)][ Class:org.apache.zookeeper.ClientCnxn >> Method: org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1272) ]
+WARN:Session 0x0 for sever 192.168.74.128/192.168.74.128:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 18009ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
+2021-09-03 09:49:03 上午 [Thread: main-SendThread(192.168.74.128:2181)][ Class:org.apache.zookeeper.ClientCnxn >> Method: org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1229) ]
+WARN:Client session timed out, have not heard from server in 18010ms for session id 0x0
+2021-09-03 09:49:03 上午 [Thread: main-SendThread(192.168.74.128:2181)][ Class:org.apache.zookeeper.ClientCnxn >> Method: org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1272) ]
+WARN:Session 0x0 for sever 192.168.74.128/192.168.74.128:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException.
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 18010ms for session id 0x0
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1230)
